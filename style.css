@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+}
 .header{
-    background: url(pic/header.jpg);
+    position: fixed;
+    background: url(pic/header.jpg) center no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
