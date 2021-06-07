@@ -1,10 +1,19 @@
 body{
     margin: 0;
 }
-.header{
-    position: fixed;
-    background: url(pic/header.jpg) center no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+.header-decor-1, .header-decor-2{
+    position: absolute;
+    right: -200px;
+    transform: rotate(-30deg);
+    width: 800px; height: 600px;
+}
+.header-decor-1{
+    z-index: 5;
+    background-color: red;
+}
+.header-decor-2{
+    z-index: 4;
+    background-color: yellow;
+    right: -190px;
+    top: 50px;
 }
