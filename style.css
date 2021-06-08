@@ -1,4 +1,9 @@
+@font-face {
+    font-family: Proxima;
+    src: url(Font/Metropolis-Regular.otf);
+}
 body{
+    font-family: Proxima;
     margin: 0;
 }
 .header-decor-1{
@@ -10,6 +15,21 @@ body{
     background-color: #e9dfcb ;
 }
 
+
+.navigasi a{
+    
+    background-color: red;
+    font-size: 20px;
+    padding: 10px 10px;
+    color: black;
+}
+.navigasi{
+    float: right;
+}
+.navigasi a:hover{
+    background-color: black;
+    text-decoration: none;
+}
 
 .character{
     z-index: -1;
