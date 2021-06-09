@@ -33,14 +33,36 @@ li a {
     border-radius: 3px;
 }
 li a:hover{
-    background-color: #c5af7d;
-    color: white;
-    transition: 0.5s;
-    text-decoration: none;
+    color: #c5af7d;
+    transition: 0.5s;   
 }
 .character{
     z-index: -1;
     top: 0;
     position: absolute;
     width: 850px;
+}
+
+.greetings{
+    color: #414141;
+    line-height: 15px;
+    position: relative;
+    top: 40px;
+    right: 50px;
+    float: right;
+    width: 400px;
+}
+.greetings h2{
+    z-index: -1;
+    font-size: 90px;
+    color: #e9dfcb;
+    position: absolute;
+    bottom: 50px;
+    right: 230px;
+}
+.greetings h1{
+    line-height: 30px;
+}
+.greetings h1 span{
+    color: #c5af7d;
 }
