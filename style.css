@@ -66,3 +66,16 @@ li a:hover{
 .greetings h1 span{
     color: #c5af7d;
 }
+
+
+.char-display{
+    position: relative;
+    top: 100px;
+    left: 850px;
+    width: 200px;
+    clear: both;
+}
+
+.char-display img{
+    width: 300px;
+}
