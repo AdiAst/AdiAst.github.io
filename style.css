@@ -6,16 +6,16 @@ body{
     font-family: Proxima;
     margin: 0;
 }
-.header-decor-1{
-    position: absolute;
-    transform: rotate(-30deg);
-    width: 800px; height: 600px;
-    top : -10px;
-    right: 500px;
-    z-index: -3;
-    background-color: #e9dfcb ;
+.header{
+    height: 1000px;
+    position: relative;
 }
-
+.logo{
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    width: 80px;
+}
 ul{
     margin: 50px auto;
     width: 1100px;
@@ -27,7 +27,7 @@ li{
 }
 li a {
     font-size: 25px;
-    color: #c5af7d;
+    color: white;
     display: block;
     padding: 15px 20px;
     border-radius: 3px;
@@ -38,44 +38,36 @@ li a:hover{
 }
 .character{
     z-index: -1;
-    top: 0;
+    top: -250px; left: -150px;
     position: absolute;
-    width: 850px;
+    width: 1050px;
 }
 
 .greetings{
-    color: #414141;
-    line-height: 15px;
+    color: #c5af7d;
     position: relative;
-    top: 40px;
-    right: 50px;
+    top: 70px;
+    right: 100px;
     float: right;
-    width: 400px;
+}
+.greetings h1{
+    font-size: 55px;
 }
 .greetings h2{
     z-index: -1;
-    font-size: 90px;
+    bottom: 25px; right: 150px;
+    font-size: 120px;
     color: #e9dfcb;
     position: absolute;
-    bottom: 50px;
-    right: 230px;
-}
-.greetings h1{
-    line-height: 30px;
-}
-.greetings h1 span{
-    color: #c5af7d;
 }
 
 
-.char-display{
-    position: relative;
-    top: 100px;
-    left: 850px;
-    width: 200px;
-    clear: both;
+
+.headerBackground{
+    opacity: 80%;
+    top: -50px;
+    width: 100%;
+    position: absolute;
+    z-index: -10;
 }
 
-.char-display img{
-    width: 300px;
-}
