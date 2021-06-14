@@ -6,16 +6,7 @@ body{
     font-family: Proxima;
     margin: 0;
 }
-.header{
-    height: 1000px;
-    position: relative;
-}
-.logo{
-    position: absolute;
-    top: -50px;
-    left: 10px;
-    width: 80px;
-}
+
 ul{
     margin: 50px auto;
     width: 1100px;
@@ -36,38 +27,7 @@ li a:hover{
     color: #c5af7d;
     transition: 0.5s;   
 }
-.character{
-    z-index: -1;
-    top: -250px; left: -150px;
-    position: absolute;
-    width: 1050px;
-}
 
-.greetings{
-    color: #c5af7d;
-    position: relative;
-    top: 70px;
-    right: 100px;
-    float: right;
+.header{
+    
 }
-.greetings h1{
-    font-size: 55px;
-}
-.greetings h2{
-    z-index: -1;
-    bottom: 25px; right: 150px;
-    font-size: 120px;
-    color: #e9dfcb;
-    position: absolute;
-}
-
-
-
-.headerBackground{
-    opacity: 80%;
-    top: -50px;
-    width: 100%;
-    position: absolute;
-    z-index: -10;
-}
-
