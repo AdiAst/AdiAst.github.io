@@ -1,3 +1,31 @@
 body {
   margin: 0;
 }
+.tree,
+.chara {
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+.tree {
+  width: 600px;
+  height: 600px;
+  right: 0;
+  background-image: url(pic/Tak\ berjudul139.png);
+}
+.chara {
+  right: 200px;
+  top: 280px;
+  height: 350px;
+  width: 180px;
+  background-image: url(pic/Tak\ berjudul136_20211119215446.png);
+  animation: animek 2s infinite;
+}
+@keyframes animek {
+  from {
+    background-image: url(pic/Tak\ berjudul136_20211119215446.png);
+  }
+  to {
+    background-image: url(pic/Tak\ berjudul139.png);
+  }
+}
