@@ -1,22 +1,18 @@
 body {
   margin: 0;
 }
-.tree,
-.chara {
-  position: absolute;
-}
+
 .tree {
   width: 700px;
   height: 700px;
   right: 0;
+  position: absolute;
   background-image: url(pic/Tak\ berjudul139.png);
   background-size: 1000px;
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 .chara {
-  right: 200px;
-  bottom: -150px;
   height: 650px;
   width: 320px;
   background-size: cover;
