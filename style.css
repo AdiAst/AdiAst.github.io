@@ -3,29 +3,32 @@ body {
 }
 .tree,
 .chara {
-  background-size: cover;
-  background-position: center;
   position: absolute;
 }
 .tree {
-  width: 600px;
-  height: 600px;
+  width: 700px;
+  height: 700px;
   right: 0;
   background-image: url(pic/Tak\ berjudul139.png);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .chara {
   right: 200px;
-  top: 280px;
-  height: 350px;
-  width: 180px;
+  bottom: -150px;
+  height: 650px;
+  width: 320px;
+  background-size: cover;
+  background-position: center;
   background-image: url(pic/Tak\ berjudul136_20211119215446.png);
-  animation: animek 2s infinite;
+  /* animation: animek 2s infinite; */
 }
-@keyframes animek {
+/* @keyframes animek {
   from {
     background-image: url(pic/Tak\ berjudul136_20211119215446.png);
   }
   to {
     background-image: url(pic/Tak\ berjudul139.png);
   }
-}
+} */
