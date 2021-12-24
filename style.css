@@ -1,24 +1,19 @@
 body {
   margin: 0;
 }
-
-.tree {
-  width: 700px;
-  height: 700px;
-  right: 0;
-  position: absolute;
-  background-image: url(pic/Tak\ berjudul139.png);
-  background-size: 1000px;
-  background-repeat: no-repeat;
-  background-position: bottom right;
-}
-.chara {
-  height: 650px;
-  width: 320px;
+.background {
+  background: url(pic/background.png) no-repeat center;
   background-size: cover;
-  background-position: center;
-  background-image: url(pic/Tak\ berjudul136_20211119215446.png);
-  /* animation: animek 2s infinite; */
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.intro h1,
+h2 {
+  line-height: 35px;
 }
 /* @keyframes animek {
   from {
