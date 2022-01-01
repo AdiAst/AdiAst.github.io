@@ -10,7 +10,12 @@
 .intro-2 {
   display: none;
 }
+.d-flex {
+  padding-left: 40px;
+  justify-content: left;
+}
 .btn {
+  margin: 0 2px;
   width: 120px;
 }
 .navbar-brand img {
@@ -39,6 +44,7 @@
     width: 150px;
   }
   .intro-2 {
+    margin-top: 20px;
     text-align: center;
     display: block;
   }
