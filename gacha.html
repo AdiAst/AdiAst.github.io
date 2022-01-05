@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Gacha</title>
+  </head>
+  <body>
+    <a href="index.html" class="btn btn-secondary"> back</a>
+    <div class="result" id="backres">
+      <div class="d-flex align-items-center">
+        <div class="container bg-dark">
+          <div class="d-flex justify-content-center py-3 flex-wrap" id="result"></div>
+          <center>
+            <button class="btn-success btn my-3" onclick="exit()">OK</button>
+          </center>
+        </div>
+      </div>
+    </div>
+    
+      <button href="" class="btn btn-outline-dark btn-lg" onclick="pull(10)">Free</button>
+      
+      <div class="container banner2">
+      </div>
+    
+    
+    
+
+
+
+
+
+
+
+
+
+<script>
+sessionStorage.setItem("haveUR", "false");
+sessionStorage.setItem("haveSR", "false");
+
+
+var backres = document.getElementById("backres");
+var res = document.getElementById("result");
+  
+window.onclick = function(event) {
+    if (event.target == backres) {
+      backres.style.display = "none";
+      res.innerHTML='';
+    }
+  }
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  </body>
+</html>
