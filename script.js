@@ -3,7 +3,7 @@ function pull(a){
     document.getElementById("backres").style.display="block";
     var result = document.getElementById("result");
     for(i=0;i < 10; i++){
-        var ranres = Math.floor(Math.random()*10);
+        var ranres = Math.floor(Math.random()*10000);
         if(ranres == 1){
             var itemsUR = document.createElement("img");
             itemsUR.setAttribute('src','pic/ur.png')
@@ -11,7 +11,7 @@ function pull(a){
             itemsUR.setAttribute('height', '100');
             result.appendChild(itemsUR);
             sessionStorage.setItem("haveUR", "true");
-        }else if(ranres >=2 && ranres <= 5){
+        }else if(ranres >=2 && ranres <= 500){
             var itemsSR = document.createElement("img");
             itemsSR.setAttribute('src','pic/sr.png')
             itemsSR.setAttribute('width', '100');
