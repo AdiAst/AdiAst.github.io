@@ -7,6 +7,12 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.intro {
+  height: 800px;
+  background: center no-repeat;
+  background-size: contain;
+  background-image: url(src/backPic.png);
+}
 .logo {
   width: 50px;
   margin: 20px;
@@ -84,14 +90,7 @@ html {
 .lg-btn:hover::before {
   left: -90%;
 }
-.middle-picture {
-  position: absolute;
-  z-index: -10;
-  height: 800px;
-  opacity: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-}
+
 .social-media {
   margin: 30px;
   display: flex;
@@ -279,6 +278,9 @@ html {
   src: url(font/static/Inter-Bold.ttf);
 }
 @media only screen and (max-width: 600px) {
+  .intro {
+    height: 100vh;
+  }
   .burger {
     display: block;
     background-color: rgba(0, 0, 0, 0);
@@ -377,14 +379,17 @@ html {
     width: 40vw;
     height: 2px;
   }
-  .middle-picture {
-    width: auto;
-    height: 100vh;
-    top: 0;
-    background-color: #da003700;
+  .context {
+    position: absolute;
   }
   .context p {
     display: none;
+  }
+  .out-mobile-context {
+    display: flex;
+    width: 95vw;
+    align-items: center;
+    flex-direction: column;
   }
   .context .context-mobile {
     margin-top: 40vh;
