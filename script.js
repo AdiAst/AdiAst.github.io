@@ -1,3 +1,51 @@
+const data = {
+  labels: [
+    "Problems Solving",
+    "Manipulate Data",
+    "Machine Learning",
+    "Designing",
+    "Coding",
+  ],
+  datasets: [
+    {
+      label: "Skills",
+      data: [90, 89, 87, 85, 89],
+      fill: true,
+      backgroundColor: "rgba(255, 99, 132, 0.9)",
+      borderColor: "rgb(255, 99, 132)",
+      pointBackgroundColor: "rgb(255, 99, 132)",
+      pointBorderColor: "#fff",
+      pointHoverBackgroundColor: "#fff",
+      pointHoverBorderColor: "rgb(255, 99, 132)",
+    },
+  ],
+};
+
+const config = {
+  type: "radar",
+  data: data,
+  options: {
+    elements: {
+      line: {
+        borderWidth: 1,
+      },
+    },
+    scales: {
+      r: {
+        angleLines: {
+          color: "rgba(190, 190, 190,0.8)",
+        },
+        grid: {
+          color: "rgba(190, 190, 190,0.5)",
+        },
+        ticks: {
+          display: false,
+        },
+      },
+    },
+  },
+};
+const myChart = new Chart(document.getElementById("myChart"), config);
 function pull(a) {
   document.getElementById("backres").style.display = "block";
   var result = document.getElementById("result");
