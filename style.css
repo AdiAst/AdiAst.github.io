@@ -378,9 +378,10 @@ html {
     height: 2px;
   }
   .middle-picture {
-    width: 95vw;
+    width: auto;
     height: 100vh;
     top: 0;
+    background-color: #da003700;
   }
   .context p {
     display: none;
@@ -436,7 +437,7 @@ html {
   }
   .project-items {
     font-size: 12px;
-    width: 150px;
+    width: 30vw;
     height: 250px;
     margin: 10px;
   }
