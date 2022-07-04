@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adi Astawa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Intro -->
+    <div class="intro">
+      <button
+        class="burger"
+        onclick="document.getElementById('outer-socmed').style.display='block'"
+      >
+        <img src="src/Menu.png" alt="menu" />
+      </button>
+
+      <a href="index.html">
+        <img src="src/logo.png" alt="logo" class="logo" />
+      </a>
+      <div id="outer-socmed">
+        <div class="social-media">
+          <h2
+            onclick="document.getElementById('outer-socmed').style.display='none'"
+            class="close"
+          >
+            x
+          </h2>
+          <center>
+            <img src="src/visu.png" class="profile" alt="" />
+          </center>
+          <a
+            href="https://drive.google.com/file/d/1TyYPkfpf0J7IcWrMd6Xv65L54zzWRFTE/view?usp=sharing"
+            class="lg-btn"
+            >DOWNLOAD CV</a
+          >
+          <div class="vertical-line"></div>
+          <a href="https://www.instagram.com/adiast12/">
+            <img
+              src="src/Instagram-icon.png"
+              class="social-media-icons"
+              alt=""
+            />
+            <span>Instagram</span>
+          </a>
+          <a href="#">
+            <img src="src/Github-icon.png" class="social-media-icons" alt="" />
+            <span>Github</span>
+          </a>
+        </div>
+      </div>
+      <div class="context">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. At est
+          ducimus vel magnam officiis atque quisquam officia impedit delectus a
+          consectetur, perspiciatis, iusto, corporis quos! At quos consequuntur
+          omnis eos! officiis atque quisquam officia impedit delectus a
+          consectetur, perspiciatis, iusto, corporis quos! At quos consequuntur
+          <span class="type">|</span>
+        </p>
+        <p></p>
+        <div class="out-mobile-context">
+          <p class="context-mobile">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At est
+            ducimus vel magnam officiis atque quisquam officia impedit delectus
+            a consectetur, perspiciatis, iusto, corporis quos! At quos
+            consequuntur omnis eos! <span class="type">|</span> <br /><br />
+          </p>
+          <a href="#contact" class="lg-btn">Contact Me</a>
+        </div>
+      </div>
+
+      <h1 class="title"><span style="color: #da0037">ADI</span> ASTAWA</h1>
+    </div>
+
+    <!-- Services -->
+
+    <div class="services">
+      <div style="padding: 40px">
+        <h1><span style="color: #da0037">MY</span> SERVICES</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
+          quaerat velit obcaecati <br />
+          inventore reiciendis quia modi nisi iusto nobis porro non.
+        </p>
+        <div class="box-cards">
+          <div class="card">
+            <h2>
+              30+ <br />
+              <span>Projects</span>
+            </h2>
+          </div>
+          <div class="card">
+            <h2>
+              10+ <br />
+              <span>Clients</span>
+            </h2>
+          </div>
+          <div class="card">
+            <h2>
+              5+ <br />
+              <span>Achiements</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="radar-chart">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+
+    <!-- Project -->
+
+    <div class="project" id="project">
+      <h1><span style="color: #da0037">My Awe</span>some Work</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
+        Ipsa repellat, facilis eius aspernatur consectetur soluta sit
+        laudantium? Ullam, <br />
+        voluptate quos. Praesentium similique reiciendis numquam cum ab corporis
+        <br />
+        nulla non voluptas!
+      </p>
+      <div class="project-content">
+        <a href="lorem-generator.html">
+          <div class="project-items"><h1>Lorem Ipsum Generator</h1></div>
+        </a>
+        <a href="#">
+          <div class="project-items">
+            <img src="src/Project1.png" alt="p1" />
+          </div>
+        </a>
+        <a href="#">
+          <div class="project-items">
+            <img src="src/Project2.png" alt="p2" />
+          </div>
+        </a>
+        <a href="https://adiast.github.io/gacha.html">
+          <div class="project-items"><h1>Gacha</h1></div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div class="contact" id="contact">
+      <h1><span style="color: #da0037">Work</span> with Me</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum provident
+        <br />
+        quae qui unde, cupiditate illo eius quis reiciendis autem explicabo.
+      </p>
+      <br />
+      <form action="#" class="form">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <label for="Name">Name :</label><br />
+              <input type="text" id="Name" /><br /><br />
+              <label for="Email">E-mail :</label><br />
+              <input type="text" id="Email" />
+            </div>
+            <div class="col">
+              <label for="mass">Message :</label><br />
+              <textarea name="massage" id="mass"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <center>
+          <button>SEND</button>
+        </center>
+      </form>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+      <h3>@I Kadek Adi Astawa</h3>
+    </div>
+
+    <a href="#" id="toTop"><img src="src/Up.png" class="toTop" /></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+    <!-- <script>
+      function open() {
+        document.getElementById("outer-socmed").style.display = "block";
+      }
+      alert(sessionStorage.getItem("haveUR"));
+      if (window.pageYOffset > 500) {
+        document.getElementById("toTop").style.opacity = 0;
+      } else {
+        document.getElementById("toTop").style.opacity = 1;
+      }
+      
+    </script> -->
+  </body>
+</html>
