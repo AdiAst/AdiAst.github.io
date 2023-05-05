@@ -1,0 +1,11 @@
+@import 'base.scss';
+
+.card{
+    background-color: $color-one;
+}
+.modal-dialog{
+    max-width: 90vw;
+}
+.modal-header{
+    border-bottom: $color-three 1px solid;
+}

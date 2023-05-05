@@ -1,0 +1,107 @@
+@import 'base.scss';
+
+
+.header{
+    height: $banner-size;
+    max-height: $banner-size;
+    position: relative;
+    overflow: hidden;
+    
+    .first-box{
+        @include tilt-box;
+        left: -30vw;
+        top:-800px;
+        z-index: -3;
+    }
+    .second-box{
+        @include tilt-box;
+        left: 50%;
+        z-index: -1;
+        top:500px;
+    }
+    img{
+        z-index: -2;
+        position: absolute;
+        height: 100%;
+        right: 10vw;
+    }
+    .container{
+        .row{
+            >div{
+                width: 50%;
+            }
+            >div:first-child{
+                padding-top: 20vh;
+            }
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+
+.detail-information{
+    background-color: $color-two;
+    .content{
+        margin-bottom: 5vh;
+        article{
+            text-align: justify;
+        }
+    }
+    .content-spacing{
+        margin-bottom:20vh ;
+    }
+}
+
+.card{
+    .card-img-overlay{
+        background: rgba($color: #000000, $alpha: 0.8);
+    }
+    img{
+        max-height: 50vh;
+    }
+}
+
+.contact-form{
+    padding: 30px 50px;
+    box-shadow:0px 0px 500px rgba(0, 0, 0, 0.5);
+}
+.progress-bar{
+    background-color: $color-three;
+}
+
+.highlight{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+@media (max-width: 768px) {
+    .header{
+        img{
+            height: 80%;
+            bottom: 0;
+            right: 0;
+        }
+       
+    }
+}
+@media (max-width: 576px) {
+    .header{
+        max-height: 50vh;
+        img{
+            height: 80%;
+            bottom: 0;
+            right: 0;
+        }
+        .container{
+            .row{
+                >div:first-child{
+                    padding-top: 10vh;
+                    width: 70%;
+                }
+                display: flex;
+                flex-direction: row;
+            }
+        }
+    }
+}

@@ -1,240 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Adi Astawa</title>
-  </head>
-  <body>
-    <div class="width-100">
-      <img src="src/pic/backPic.png" alt="backPic" class="background" />
-      <span class="name text-center"><span>ADI</span> ASTAWA</span>
-      <a href="gacha.html" class="special-btn gacha-btn px-5"> GACHA </a>
-      <button class="burger" onclick="openNav()">
-        <img src="src/pic/Menu.png" alt="" />
-      </button>
 
-      <!-- navbar -->
-      <div id="outer-nav">
-        <div id="navbar">
-          <button
-            onclick="document.getElementById('outer-nav').style.transform='translateX(-300px)'"
-          >
-            X
-          </button>
-          <a href="#" class="special-btn">DOWNLOAD CV</a>
-          <div class="line"></div>
-          <a href="#">
-            <img src="src/pic/Github-icon.png" alt="gh" />
-            <span class="title">GitHub</span>
-          </a>
-          <a href="#">
-            <img src="src/pic/Instagram-icon.png" alt="ig" />
-            <span class="title">Instagram</span>
-          </a>
-        </div>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/styles/index.css">
+    <link rel="stylesheet" href="src/styles/profile.css">
+    <link rel="stylesheet" href="src/styles/project.css">
+    <title>ADI ASTAWA | Profile</title>
+</head>
 
-      <!-- Two text in the middle -->
-      <div class="container">
-        <div class="row opening">
-          <div
-            class="col-sm-5 d-flex align-items-center justify-content-center text-left"
-          >
-            <p class="text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              iure ipsa consequatur delectus excepturi totam veritatis quaerat
-              reprehenderit dolores eveniet, iusto consectetur hic harum
-              quibusdam, enim perspiciatis unde deserunt laudantium? Neque,
-              consequuntur non. Tempora, deserunt illo qui, repellat consequatur
-              enim omnis excepturi maxime aliquid rerum fugiat quas beatae in
-              laudantium!
-            </p>
+<body>
+
+
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-end">
+          <div class="col-md-2 fixed-bottom p-0">
+            <div id="navbar"></div>
           </div>
-          <div class="col-sm-2"></div>
-          <div
-            class="col-sm-5 d-flex align-items-center flex-column justify-content-center text-left"
-          >
-            <p class="text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
-              cumque eius quibusdam aspernatur dicta tempora eveniet veniam
-              corrupti laudantium! Delectus dolores veniam ea nemo, cum
-              assumenda quam nihil maxime officiis perspiciatis. Iusto
-              repellendus, rerum rem voluptas iure odio consequuntur incidunt
-              mollitia blanditiis sunt ipsa.
-            </p>
-            <a href="#contact" class="special-btn">CONTACT ME</a>
+          <div class="col-12 col-lg-10 p-0 web-content">
+            <div id="content"></div>
+            <div id="footer"></div>
           </div>
         </div>
       </div>
-    </div>
+      
 
-    <!-- Skill chart and three card -->
-    <div class="width-100 service margin-b">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col">
-            <span class="title"><span>MY</span> SERVICES</span>
-            <p class="margin-b">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              veritatis cupiditate reprehenderit corporis quaerat ea voluptatum
-              quos blanditiis illo expedita?
-            </p>
-            <div class="card-deck padding-y">
-              <div class="card bg-dark shadow-lg py-3">
-                <div class="card-body text-center">
-                  <span class="card-title"
-                    ><span>10+</span><br />
-                    Clients</span
-                  >
-                </div>
-              </div>
-              <div class="card bg-dark shadow-lg py-3">
-                <div class="card-body text-center">
-                  <span class="card-title"
-                    ><span>20+</span><br />
-                    Projects</span
-                  >
-                </div>
-              </div>
-              <div class="card bg-dark shadow-lg py-3">
-                <div class="card-body text-center">
-                  <span class="card-title"
-                    ><span>5+</span><br />
-                    Achievements</span
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Radar Chart -->
-          <div class="col radar">
-            <div class="radar-chart">
-              <canvas id="myChart"></canvas>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- Project -->
-    <div class="container p-5">
-      <div class="row flex-column">
-        <div class="col text-center">
-          <span class="title"><span>My Awe</span>some Work</span>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
-            Ipsa repellat, facilis eius aspernatur consectetur soluta sit
-            laudantium? Ullam, voluptate quos. <br />
-            Praesentium similique reiciendis numquam cum ab corporis nulla non
-            voluptas!
-          </p>
-        </div>
-        <div
-          class="col d-flex flex-row justify-content-around margin-t flex-wrap"
-        >
-          <a href="miniProject.html">
-            <div
-              class="project-items align-items-center d-flex justify-content-center text-center"
-            >
-              <span class="title"
-                >MINI <br />
-                PROJECT</span
-              >
-            </div>
-          </a>
-          <a href="#">
-            <div
-              class="project-items align-items-center d-flex justify-content-center"
-            >
-              <img src="src/pic/Project1.png" alt="p1" />
-            </div>
-          </a>
-          <a href="#">
-            <div
-              class="project-items align-items-center d-flex justify-content-center"
-            >
-              <img src="src/pic/Project2.png" alt="p2" />
-            </div>
-          </a>
-          <a href="gacha.html">
-            <div
-              class="project-items align-items-center d-flex justify-content-center"
-            >
-              <span class="title">GACHA</span>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
 
-    <!-- Contact -->
-    <div
-      class="container text-center padding contact margin-y shadow-lg"
-      id="contact"
-    >
-      <span class="title"><span>Work</span> With Me</span>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum provident
-        <br />
-        quae qui unde, cupiditate illo eius quis reiciendis autem explicabo.
-      </p>
-      <div class="row text-left">
-        <div class="col">
-          <label for="name">Name :</label><br />
-          <input
-            class="form-control text-light bg-dark border-0"
-            type="text"
-            id="name"
-          /><br />
-          <label for="name">Email :</label><br />
-          <input
-            class="form-control text-light bg-dark border-0"
-            type="text"
-            id="name"
-          /><br />
-        </div>
-        <div class="col">
-          <label for="massage">Massage :</label><br />
-          <textarea
-            class="form-control text-light bg-dark border-0"
-            rows="4"
-            id="massage"
-          ></textarea>
-        </div>
-      </div>
-      <button class="special-btn px-5">SEND</button>
-    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="src/scripts/index.js"></script>
+</body>
 
-    <footer>
-      <span>@I_Kadek_Adi_Astawa</span>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="script.js"></script>
-    <script>
-      function openNav() {
-        document.getElementById("outer-nav").style.transform = "translateX(0)";
-      }
-    </script>
-  </body>
 </html>

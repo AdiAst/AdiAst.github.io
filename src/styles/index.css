@@ -1,0 +1,143 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #616571;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #93DEFF;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #93DEFF;
+  background: #1A1A1A;
+}
+
+::selection {
+  color: #93DEFF;
+  background: #1A1A1A;
+}
+
+body {
+  background: #1A1A1A;
+  overflow-x: hidden;
+  color: #F7F7F7;
+  font-size: 16px;
+}
+
+ul li span {
+  cursor: pointer;
+}
+
+.navbar {
+  flex-direction: column;
+  align-items: start;
+  height: 100vh;
+}
+.navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #F7F7F7;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.navbar .navbar-brand img {
+  margin-right: 10px;
+  width: 40px;
+}
+.navbar .navbar-brand:hover {
+  color: #93DEFF;
+}
+
+.menu-link {
+  font-weight: bold;
+  color: #F7F7F7;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  font-size: 1.2rem;
+}
+
+.highlight-text {
+  color: #93DEFF;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #93DEFF;
+}
+
+.text-primary {
+  color: #93DEFF;
+}
+
+.btn-outline-primary {
+  color: #F7F7F7;
+  border-color: #F7F7F7;
+  font-weight: 600;
+}
+
+.btn-outline-primary:hover {
+  color: #93DEFF;
+  border-color: #1A1A1A;
+  background-color: #1A1A1A;
+}
+
+.btn-primary {
+  background-color: #93DEFF;
+  border: none;
+  color: #1A1A1A;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  color: #93DEFF;
+  background-color: #616571;
+  border-color: #1A1A1A;
+  background-color: #1A1A1A;
+}
+
+.border-primary {
+  border-color: #93DEFF !important;
+  opacity: 1;
+}
+
+.web-content {
+  overflow-y: auto;
+  max-height: 100vh;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .btn-outline-primary, .btn-primary {
+    font-size: 16px;
+  }
+  .navbar {
+    height: 10vh;
+  }
+  body {
+    font-size: 14px;
+  }
+  .spaceline-nav {
+    display: none;
+  }
+  .menu-link {
+    font-size: 1rem;
+  }
+  .navbar .navbar-brand {
+    display: none;
+  }
+  .navbar .navbar-nav {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 576px) {
+  .menu-link {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=index.css.map */

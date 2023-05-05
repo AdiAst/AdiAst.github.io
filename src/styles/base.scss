@@ -1,0 +1,13 @@
+$font-color:#F7F7F7;
+$color-one:#616571;
+$color-two:#1A1A1A;
+$color-three:#93DEFF;
+$banner-size:80vh;
+@mixin tilt-box(){
+    position: absolute;
+    background-color: $color-one;
+    width: 2000px;
+    height: 1500px;
+    transform: rotate(-45deg);
+    
+}
