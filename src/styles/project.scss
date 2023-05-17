@@ -1,6 +1,7 @@
 @import 'base.scss';
 
 .card{
+    overflow: hidden;
     background-color: $color-one;
 }
 .modal-dialog{
@@ -8,4 +9,12 @@
 }
 .modal-header{
     border-bottom: $color-three 1px solid;
+}
+.card-footer{
+    border: none;
+    box-shadow: 0px -5px 100px 30px #616571;
+}
+.projects-description{
+    max-height: 30vh;
+    overflow: hidden;
 }

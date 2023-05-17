@@ -80,13 +80,15 @@ function renderCardHtml(item) {
     .join("");
 
   const cardBodyHtml = `
-    <div class="card-body">
+    <div class="card-body projects-description">
       <div class="mb-4">
         ${technologyButtonsHtml}
       </div>
       <p class="card-text">${item.description}</p>
-      <button data-bs-toggle="modal" data-bs-target="#${item.PID}" class="btn btn-outline-primary px-5">More</button>
-    </div>
+      </div>
+      <div class="card-footer text-muted p-3">
+        <button data-bs-toggle="modal" data-bs-target="#${item.PID}" class="btn btn-outline-primary px-5">More</button>
+      </div>
   `;
 
   const modalHtml = `
