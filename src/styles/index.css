@@ -112,8 +112,17 @@ ul li span {
 }
 
 @media (max-width: 768px) {
-  .btn-outline-primary, .btn-primary {
+  h1 {
     font-size: 16px;
+  }
+  h2, h3 {
+    font-size: 14px;
+  }
+  i.bx {
+    font-size: 18px;
+  }
+  .btn-outline-primary, .btn-primary {
+    font-size: 14px;
   }
   .navbar {
     height: 10vh;
@@ -136,6 +145,9 @@ ul li span {
   }
 }
 @media (max-width: 576px) {
+  .btn-outline-primary, .btn-primary {
+    font-size: 12px;
+  }
   .menu-link {
     text-align: center;
     font-size: 0.8rem;
