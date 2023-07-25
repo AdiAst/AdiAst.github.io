@@ -2,8 +2,8 @@ $.getJSON("src/data/projects.json", function (data) {
   const itemsPerPage = 3;
   const totalPages = Math.ceil(data.length / itemsPerPage);
   let currentPage = 1;
-  
-  renderPage(currentPage, data, itemsPerPage);
+  let newData= data.reverse()
+  renderPage(currentPage, newData, itemsPerPage);
   
   $(".pagination").on("click", ".page-link", function (event) {
     event.preventDefault();
